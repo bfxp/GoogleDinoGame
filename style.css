@@ -24,4 +24,12 @@
     position: relative;
     top: 130px;
     left: 480px;
+    animation: object 1s infinite linear;
 }
+
+@keyframes object{
+    0%{left:480px;}
+    100%{left:-40px;}
+}
+
+
